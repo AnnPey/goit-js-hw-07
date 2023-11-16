@@ -15,3 +15,4 @@ const createGalleryItem = ({preview, original, description}) => {
 
 const resoult = galleryItems.map(createGalleryItem).join("");
 gallery.innerHTML = resoult;
+
